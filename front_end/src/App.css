@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+.container{
+	width:100%;
+}
+.noteheader{
+	width:100%;
+	text-align: left;
+}
+
+
+.notetable{
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+.notetable tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+	    background-color: #f2f2f2;    
+}
+.notetable th {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: #4CAF50;
+    color: white;
+	border: 1px solid #ddd;
+    text-align: left;
+    //padding: 8px;
+}
+.notetable td{
+	    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+.notetable tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
